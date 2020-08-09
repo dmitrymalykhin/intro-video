@@ -9,3 +9,32 @@ NOTE:
 ------
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.my-card {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.my-card__title {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 25px;
+}
+.my-card__text {
+	margin-bottom: 25px;
+}
+.my-card-image img {
+	width: 100%;
+	cursor: pointer;
+}
+.last-img {
+	display: none;
+}
+.my-card-image:hover .first-img {
+	display: none;
+}
+.my-card-image:hover .last-img {
+	display: block;
+}
+.content-center {
+	display: flex;
+	justify-content: center;
+}
